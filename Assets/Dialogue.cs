@@ -58,6 +58,10 @@ public class Dialogue : MonoBehaviour
             index++;
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
+            
+            if(index == 3){
+                Debug.Log("Hej");
+            }
         }
         else
         {
